@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReverseEngineeringSettings">
+    <database-infos>
+      <database-info dbms-id="postgres">
+        <mapping-types>
+          <mapping-type sql-type="sql_identifier" java-class="java.lang.String" use-column-definition="true" />
+        </mapping-types>
+      </database-info>
+      <database-info dbms-id="mysql">
+        <mapping-types>
+          <mapping-type sql-type="yes_or_no" java-class="java.lang.Boolean" use-column-definition="true" />
+          <mapping-type sql-type="character_data" java-class="java.lang.String" use-column-definition="true" />
+          <mapping-type sql-type="cardinal_number" java-class="java.lang.Integer" use-column-definition="true" />
+        </mapping-types>
+      </database-info>
+    </database-infos>
+  </component>
+</project>
